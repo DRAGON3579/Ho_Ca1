@@ -1,0 +1,210 @@
+.animated {
+    position: relative;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveShark {
+    0% {
+        left: 100px;
+        top: 400px;
+    }
+    20% {
+        left: 300px;
+        top: 400px;
+    }
+    40% {
+        left: 500px;
+        top: 300px;
+    }
+    50% {
+        left: 600px;
+        top: 50px;
+    }
+    60% {
+        left: 600px;
+        top: 100px;
+    }
+    80% {
+        left: 500px;
+        top: 200px;
+    }
+    100% {
+        left: 100px;
+        top: 400px;
+        transform: scaleX(-1);
+    }
+}
+
+@keyframes moveFaintSchool {
+    0% {
+        left: 200px;
+        top: 200px;
+    }
+    25% {
+        left: 400px;
+        top: 200px;
+    }
+    50% {
+        left: 600px;
+        top: 400px;
+    }
+    75% {
+        left: 400px;
+        top: 600px;
+    }
+    100% {
+        left: 200px;
+        top: 200px;
+    }
+}
+
+@keyframes moveGoldFishSchool {
+    0% {
+        left: 300px;
+        top: 300px;
+    }
+    25% {
+        left: 500px;
+        top: 300px;
+    }
+    50% {
+        left: 700px;
+        top: 500px;
+    }
+    75% {
+        left: 500px;
+        top: 700px;
+    }
+    100% {
+        left: 300px;
+        top: 300px;
+    }
+}
+
+@keyframes moveTurtle {
+    0% {
+        left: 100px;
+        top: 600px;
+    }
+    25% {
+        left: 300px;
+        top: 600px;
+    }
+    50% {
+        left: 500px;
+        top: 400px;
+    }
+    75% {
+        left: 300px;
+        top: 200px;
+    }
+    100% {
+        left: 100px;
+        top: 600px;
+    }
+}
+
+@keyframes moveDiver1 {
+    0% {
+        left: 600px;
+        top: 400px;
+    }
+    25% {
+        left: 800px;
+        top: 400px;
+    }
+    50% {
+        left: 1000px;
+        top: 200px;
+    }
+    75% {
+        left: 800px;
+        top: 0px;
+    }
+    100% {
+        left: 600px;
+        top: 400px;
+    }
+}
+@keyframes moveDiver2 {
+    0% {
+        left: 800px;
+        top: 600px;
+    }
+    25% {
+        left: 1000px;
+        top: 600px;
+    }
+    50% {
+        left: 1200px;
+        top: 400px;
+    }
+    75% {
+        left: 1000px;
+        top: 200px;
+    }
+    100% {
+        left: 800px;
+        top: 600px;
+    }
+}
+
+@keyframes moveDiver3 {
+    0% {
+        left: 1000px;
+        top: 800px;
+    }
+    25% {
+        left: 1200px;
+        top: 800px;
+    }
+    50% {
+        left: 1400px;
+        top: 600px;
+    }
+    75% {
+        left: 1200px;
+        top: 400px;
+    }
+    100% {
+        left: 1000px;
+        top: 800px;
+    }
+}
+
+#shark {
+    animation-name: moveShark;
+}
+
+#faintSchool {
+    animation-name: moveFaintSchool;
+}
+
+#goldFishSchool {
+    animation-name: moveGoldFishSchool;
+}
+
+#turtle {
+    animation-name: moveTurtle;
+}
+
+#diver1 {
+    animation-name: moveDiver1;
+}
+
+#diver2 {
+    animation-name: moveDiver2;
+}
+
+#diver3 {
+    animation-name: moveDiver3;
+}
+
+
+#controls {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
